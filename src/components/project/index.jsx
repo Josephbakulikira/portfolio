@@ -3,10 +3,11 @@ import "./style.css";
 import ReactPaginate from 'react-paginate'
 import projects from '../../constants/projects'
 import {BsArrowLeft, BsArrowRight} from 'react-icons/bs'
-
+import Slide from 'react-reveal/Slide'
 
 function GetItems(currentItems ) {
 return (
+  
     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
     {currentItems &&
         currentItems.map((item) => (
@@ -67,6 +68,7 @@ function ProjectSection({itemsPerPage}) {
   
 
   return (
+    <Slide bottom> 
     <div
       name="projects"
       className="projectSection w-full md:h-screen text-gray-300 "
@@ -97,6 +99,8 @@ function ProjectSection({itemsPerPage}) {
       </div>
       
     </div>
+    </Slide>
+
   );
 }
 export default ProjectSection;

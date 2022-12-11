@@ -3,13 +3,16 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import GridBackground from "../GridBackground";
 import "./style.css";
+import Zoom from "react-reveal/Zoom.js";
+
 
 function HeroSection() {
   return (
     <>
       <GridBackground />
-      <div name="home" className="w-full h-screen ">
-        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <Zoom right>
+      <div name="home" className="w-full h-screen " >
+        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full" >
           <p className="text-teal-400 tagfamily">
             {"<p>"} Hi, my name is {"</p>"}
           </p>
@@ -34,6 +37,8 @@ function HeroSection() {
           </div>
         </div>
       </div>
+      </Zoom>
+      
     </>
   );
 }

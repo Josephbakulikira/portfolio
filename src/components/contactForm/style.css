@@ -1,0 +1,10 @@
+.contactSection p a:hover{
+    text-decoration: underline;
+}
+
+.inputstylecontact{
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(3px);
+    border: 1px dashed white;
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: #0a112f;
+}
+
+  /* A very quick an applicable solution is to use this piece of code: */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+    width: 0px;}

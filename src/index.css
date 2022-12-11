@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+body{
+    font-family: 'Fira Code', monospace;
+    /* font-family: 'Roboto Slab', serif; */
+}
+
+.tagfamily{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px !important;
+}
+
+.titleText{
+    font-family: 'Roboto Slab', serif;
+}

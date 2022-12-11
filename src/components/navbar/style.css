@@ -1,0 +1,121 @@
+.my_logo{
+    width: 60px;
+}
+.mymainnav .active{
+    color: cyan;
+}
+
+.mymainnav li{
+    transition: all 0.2s ease-out;
+}
+
+.mymainnav li:hover{
+    color: cyan
+}
+/* .mynav{
+    background: #0a112f33;
+    backdrop-filter: blur(3px);
+} */
+.myHamburger{
+    display: block;
+    position: relative;
+    z-index: 1;
+
+    user-select: none;
+
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    margin-inline: 20px;
+}  
+
+.myHamburger span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 6px;
+    position: relative;
+
+    background-color: white;
+    border-radius: 6px;
+    z-index: 100;
+    transform-origin: 0 0;
+    transition: 0.4s;
+}
+
+.myHamburger span:nth-child(2){
+    transform: translateX(-6px);
+}
+.myHamburger span span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-left: 33px;
+    top: -4px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.myHamburger:hover span:nth-child(1){
+    transform: translateX(0px);
+}
+.myHamburger:hover span:nth-child(2){
+    transform: translateX(-6px);
+}
+.myHamburger:hover span:nth-child(3){
+    transform: translateX(0px);
+}
+
+.myHamburger.is-active{
+    transition: 0.4s;
+}
+.myHamburger.is-active span:nth-child(1){
+    transform: translate(0px, -2px) rotate(45deg);
+}
+.myHamburger.is-active span:nth-child(3){
+    transform: translate(0px, 0px) rotate(-45deg);
+}
+.myHamburger.is-active span:nth-child(2){
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+.myHamburger.is-active:hover {
+    /* transform-origin:center; */
+    transform: scale(1.1);
+}
+
+.myHamburger.is-active:hover span{
+    background-color: white;
+}
+
+.socialContainer li{
+    border-radius: 3px !important;
+}
+
+.mobile_menu{
+    backdrop-filter: blur(30px);
+    background: rgba(10, 20, 60, 0.3);
+}
+
+.mobile_menu a:hover{
+    transform: scale(1.2);
+    color: cyan;
+}
+
+.myimage{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 160px;
+    overflow: hidden;
+    border: 2px dashed cyan;
+    transition: all 0.5s ease-in-out;
+}
+
+.myimage:hover{
+    transform: rotateZ(360deg) scale(1.1);
+    cursor: pointer;
+}

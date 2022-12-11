@@ -1,0 +1,9 @@
+.skillscontainer{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.project-tile{
+    backdrop-filter: blur(3px);
+}

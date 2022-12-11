@@ -1,0 +1,90 @@
+.content-div{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 250px !important;
+    
+}
+
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 238, 255, 0.1),
+        hsla(286, 74%, 61%, 0.1)
+    ) !important;
+}
+.mypaginationlist .active{
+    color: pink;
+}
+
+.mytag{
+    margin-inline: 2px;
+    background: rgb(50, 50, 50);
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 4px;
+}
+
+.mypagination {
+    margin-block: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.mybutton{
+    border: solid 2px white;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttondemo:hover{
+    background-color: rgb(41, 3, 61); 
+    border-color: rgb(41, 3, 61);
+    /* transform: rotateZ(3deg); */
+}
+.buttoncode:hover{
+    background-color: rgb(0, 11, 49);
+    border-color: rgb(0, 11, 49);
+    /* transform: rotateZ(-3deg); */
+}
+
+
+.mypagination .previous{
+    transition: all 0.3s ease-in-out;
+}
+
+.mypagination .previous:hover{
+    transform: scale(1.1);
+    color: Cyan;
+}
+.mypagination .next{
+    transition: all 0.3s ease-in-out;
+}
+
+.mypagination .next:hover{
+    transform: scale(1.1);
+    color: Cyan;
+}
+
+.mypaginationlist{
+    background-color: transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    padding: 0px !important;
+    padding-inline: 2px;
+}
+.mypaginationactive{
+    /* background-color: rgb(9, 9, 15); */
+    color: rgb(0, 217, 255) !important;
+
+}
+.mypaginationlist:hover{
+    color: rgb(143, 197, 197);
+
+    
+}
+.thecontainerproject{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}

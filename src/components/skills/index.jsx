@@ -23,7 +23,7 @@ function Skills() {
               {skills.map((skill) => (
                 <div
                   key={skill.id}
-                  className="project-tile shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+                  className="project-tile shadow-md shadow-[#040c16] hover:scale-110 duration-500 skillCard"
                 >
                   <img
                     className="w-20 mx-auto"

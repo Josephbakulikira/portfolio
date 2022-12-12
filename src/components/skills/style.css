@@ -5,5 +5,5 @@
     flex-direction: column;
 }
 .project-tile{
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
 }

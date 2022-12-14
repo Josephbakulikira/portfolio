@@ -23,7 +23,8 @@ function HeroSection() {
             I'm a Game/Web developer.
           </h2>
           <p className="text-[#8892b0] py-4 max-w-[700px]">
-            I'm a full stack web developer and a game developer specializing in building exceptional digital experiences.
+            I'm a full stack web and game developer, Specializing in building exceptional digital experiences.
+            There is nothing I love more than working on challenging projects.
           </p>
           <div>
             <Link to="projects" duration={500} smooth={true}>

@@ -1,5 +1,7 @@
 import React from "react";
 import {Slide, Fade} from "react-reveal";
+import {FaGithub, FaFile, FaYoutube} from 'react-icons/fa'
+import "./style.css"
 
 function AboutSection() {
   return (
@@ -29,8 +31,15 @@ function AboutSection() {
                 I am passionnate about building excellent software that improves
                 the lives of those around me. I specialize in creating games and websites
                 ranging from individuals and small-businesses all
-                the way to large enterprise corporations. <b>Innovation is my passion.</b>
+                the way to large enterprise corporations. 
+                <b>Innovation is my passion.</b>
               </p>
+              <div className="flex mt-3">
+                <a target="_blank" href="https://github.com/Josephbakulikira" className="linkcard linkcard-1"><span>Github{" "}</span> <FaGithub size={30}/></a>
+                <a target="_blank" href="https://www.youtube.com/@Auctux" className="linkcard linkcard-2"><span>Youtube{" "}</span> <FaYoutube size={30}/></a>
+                <a target="_blank" href="./JosephBakulikira.pdf" className="linkcard linkcard-3"><span>CV{" "}</span> <FaFile size={30}/></a>
+
+              </div>
             </div>
             </Slide>
             

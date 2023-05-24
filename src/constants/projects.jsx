@@ -17,6 +17,7 @@ import Movie from "../assets/movie.jpg";
 import Auctux from "../assets/auctuxWebsite.jpg";
 import Sorting from "../assets/sorting.jpg";
 import Raytracing from "../assets/Raytracing_reflection.jpg";
+import Restaurant from '../assets/bec.png'
 
 const projects = [
   {
@@ -28,6 +29,16 @@ const projects = [
     github_url: "https://github.com/Josephbakulikira/ShareTableServer",
     description:
       "you can create a server and share an excel table with any one (MERN stack)",
+  },
+  {
+    title: "Menu Restaurant Website",
+    image: Restaurant,
+    tags: ["javascript", "React", "Node JS", "MongoDB"],
+    id: "23project",
+    demo_url: "https://bec-restaurant.vercel.app/",
+    github_url: "https://github.com/Josephbakulikira",
+    description:
+      "you can add and remove element on the menu (MERN stack)",
   },
   {
     title: "Auctux Website",

@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import GridBackground from "./components/GridBackground";
 
-import {Fade, Zoom} from "react-reveal";
+import {Fade, Zoom} from "react-reveal ";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 

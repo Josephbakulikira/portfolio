@@ -37,7 +37,7 @@ function AboutSection() {
               <div className="flex mt-3">
                 <a target="_blank" href="https://github.com/Josephbakulikira" className="linkcard linkcard-1"><span>Github{" "}</span> <FaGithub size={30}/></a>
                 <a target="_blank" href="https://www.youtube.com/@Auctux" className="linkcard linkcard-2"><span>Youtube{" "}</span> <FaYoutube size={30}/></a>
-                <a target="_blank" href="./JosephBakulikira.pdf" className="linkcard linkcard-3"><span>CV{" "}</span> <FaFile size={30}/></a>
+                <a target="_blank" href="./JosephBakulikiraResume.pdf" className="linkcard linkcard-3"><span>CV{" "}</span> <FaFile size={30}/></a>
 
               </div>
             </div>

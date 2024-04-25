@@ -79,7 +79,7 @@ function Navbar() {
                 <a className="flex justify-between items-center w-full text-gray-300" href="mailto:bakulikiraj@gmail.com" target='_blank'>Mail<HiOutlineMail size="25" /></a>
             </li>
             <li className="w-[130px] h-[40px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#888888]">
-                <a className="flex justify-between items-center w-full text-gray-300" href="./JosephBakulikira.pdf" target='_blank' download>Resume<BsFillPersonLinesFill size="25" /></a>
+                <a className="flex justify-between items-center w-full text-gray-300" href="./JosephBakulikiraResume.pdf" target='_blank' download>Resume<BsFillPersonLinesFill size="25" /></a>
             </li>
         </ul>
       </div>

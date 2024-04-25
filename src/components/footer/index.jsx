@@ -22,7 +22,7 @@ function FooterSection() {
                 <a className=" text-gray-300" href="mailto:bakulikiraj@gmail.com" target='_blank'><HiOutlineMail size="30" /></a>
             </li>
             <li className=" footerIcon flex items-center  bg-[#88888866]">
-                <a className=" text-gray-300" href="./JosephBakulikira.pdf" target='_blank' download><BsFillPersonLinesFill size="30" /></a>
+                <a className=" text-gray-300" href="./JosephBakulikiraResume.pdf" target='_blank' download><BsFillPersonLinesFill size="30" /></a>
             </li>
         </ul>
         <p className='py-4 text-gray-400'>Copyright &copy; {new Date().getFullYear()}, Joseph Bakulikira</p>
